@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zara.catalog.api.PriceControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-11T05:37:06" hostname="dv7" time="0.158">
+  <properties/>
+  <testcase name="testGetPriceAt1600OnJune14()" classname="com.zara.catalog.api.PriceControllerTest" time="0.125"/>
+  <testcase name="testGetPriceAt2100OnJune14()" classname="com.zara.catalog.api.PriceControllerTest" time="0.008"/>
+  <testcase name="testGetPriceAt2100OnJune16()" classname="com.zara.catalog.api.PriceControllerTest" time="0.006"/>
+  <testcase name="testGetPriceAt1000OnJune14()" classname="com.zara.catalog.api.PriceControllerTest" time="0.005"/>
+  <testcase name="testGetPriceAt1000OnJune15()" classname="com.zara.catalog.api.PriceControllerTest" time="0.006"/>
+  <system-out><![CDATA[00:37:04.682 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.zara.catalog.api.PriceControllerTest]: PriceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:37:04.761 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.zara.catalog.api.ZaraCatalogApplication for test class com.zara.catalog.api.PriceControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-11T00:37:04.995-05:00  INFO 715508 --- [zara-catalog] [    Test worker] c.zara.catalog.api.PriceControllerTest   : Starting PriceControllerTest using Java 21.0.2 with PID 715508 (started by leonard in /home/leonard/OneDrive/companies/Telefonica/ESP/projects/zara-catalog)
+2024-04-11T00:37:04.996-05:00  INFO 715508 --- [zara-catalog] [    Test worker] c.zara.catalog.api.PriceControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-04-11T00:37:06.320-05:00  INFO 715508 --- [zara-catalog] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-04-11T00:37:06.320-05:00  INFO 715508 --- [zara-catalog] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-04-11T00:37:06.322-05:00  INFO 715508 --- [zara-catalog] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-04-11T00:37:06.341-05:00  INFO 715508 --- [zara-catalog] [    Test worker] c.zara.catalog.api.PriceControllerTest   : Started PriceControllerTest in 1.535 seconds (process running for 2.298)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/leonard/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
